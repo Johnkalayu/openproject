@@ -10,7 +10,7 @@ stages:
 - secert_detection
 
 variables:
-  NVD_API_KEY: 
+  NVD_API_KEY: bc724f74-86c9-415a-a4dd-06de9575aa58   
   DOCKER_IMAGES: joni/openproject:latest/.docker.io
   MAVEN_OPTS: "-DskipTest=true"
   SONAR_HOST_URL: https://sonracloud.io
